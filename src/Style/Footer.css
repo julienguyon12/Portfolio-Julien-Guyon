@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  height: 200px;
+  background: var(--dark-blue-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-top: 200px;
+}
+.socialMedia svg {
+  color: var(--white);
+  margin: 20px;
+  font-size: 70px;
+  cursor: pointer;
+}
+.socialMedia svg:hover {
+  color: var(--light-blue-hover);
+}
+
+.footer p {
+  color: var(--white);
+}
+
+@media only screen and (max-width: 600px) {
+  .footer svg {
+    font-size: 50px;
+  }
+}
