@@ -1,10 +1,19 @@
 import MPST from '../assets/MPST.PNG';
+import MPSS from '../assets/MPSS.PNG';
 import CV from '../assets/CV.PNG';
 import Fylo from '../assets/Fylo.PNG';
 import card from '../assets/card.PNG';
 import QR from '../assets/qrcode.PNG';
 
 export const projectList = [
+  {
+    id: 0,
+    name: "Mon P'tit Surf Shop",
+    image: MPSS,
+    skills: 'React, Redux, Strapi, PostgreSQL, HTML, CSS, Render',
+    url: 'https://monpetitsurfshop.onrender.com/',
+    urlGit: 'https://github.com/julienguyon12/MonPetitSurfShop',
+  },
   {
     id: 1,
     name: "Mon P'tit Surf Trip",

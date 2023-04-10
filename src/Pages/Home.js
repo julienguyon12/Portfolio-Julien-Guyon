@@ -40,9 +40,13 @@ function Home() {
           <li className='item'>
             <h2>Front-end</h2>
             <span>
-              ReactJS, Javascript, CSS, Sass, HTML, NPM, Git, MaterialUI,
-              EmailJS, Ajax
+              ReactJS, Redux, Javascript, CSS, Sass, HTML, NPM, Git, MaterialUI,
+              EmailJS, Ajax , Netlify, Render
             </span>
+          </li>
+          <li className='item'>
+            <h2>Back-end</h2>
+            <span>Strapi, MySQL</span>
           </li>
           <li className='item'>
             <h2>Professionnelles</h2>
