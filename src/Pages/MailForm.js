@@ -46,18 +46,13 @@ function MailForm() {
               navigate(-1);
             }}
           />
-          <h1>Contact Form</h1>
-          <p>Please fill all the texts in the fields</p>
+          <h1>Contact </h1>
+          <p>Merci de renseigner tous les champs</p>
         </div>
         <div className='form-main' id='formMain'>
-          <label>Your Name:</label>
-          <input
-            type='text'
-            placeholder='Full Name'
-            name='fullName'
-            id='name'
-          />
-          <label>Your Email:</label>
+          <label>Votre Nom:</label>
+          <input type='text' placeholder='Nom' name='fullName' id='name' />
+          <label>Votre Email:</label>
           <input
             type='email'
             placeholder='abcd@xyz.com'
@@ -65,17 +60,17 @@ function MailForm() {
             id='email'
             required
           />
-          <label>Subject:</label>
+          <label>Objet:</label>
           <input
             type='subject'
-            placeholder='Job Enquiry'
+            placeholder="Offre d'emplois"
             name='text'
             id='subject'
             required
           />
           <label>Message:</label>
           <textarea
-            placeholder='Your Message Here'
+            placeholder='Votre Message'
             name='message'
             id='message'
             required
